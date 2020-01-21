@@ -10,18 +10,17 @@
 .container{
     margin-right: 25%;
     margin-left: 25%;
+    width: 50%;
 }
 input{
     height: 25px;
-    border-radius: 10px;
     outline: none;
-    display: block;
 }
 .inputs{
     display: block;
     width: 90%;
 }
-.inputs, input{
+.inputs{
     width: 90%;
 }
 
@@ -30,5 +29,9 @@ label{
     margin-bottom: 20px;
 }
 textarea{
+    width: 90%;
+}
+.field{
+    display: block;
     width: 90%;
 }

@@ -19,7 +19,26 @@
       <label for="email" id="email-label">Email</label>
       <input type="email" id="email" placeholder="enter your email" required>
       <label for="number" id="number-label">Age</label>
-      <input type="number" id="number" max="100" min="7"> 
+      <input type="number" id="number" max="100" min="7" placeholder="Enter your age"> 
+      <select name="role" id="dropdown" placeholder="Select current role">
+        <option value="student">Student</option>
+        <option value="fulltimejob">Full time job</option>
+        <option value="fulltimelearner">Full time learner</option>
+        <option value="prefernottosay">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+      <input type="radio" name="recommend" value="definitely">Definitely <br>
+      <input type="radio" name="recommend" value="maybe">Maybe <br>
+      <input type="radio" name="recommend" value="notsure">Not Sure <br>
+
+      <input type="checkbox" value="frontend"> Front-end projects <br>
+      <input type="checkbox" value="backend"> Back-end projects <br>
+      <input type="checkbox" value="datavisualization"> Data visualization <br>
+      <input type="checkbox" value="challenges"> Challenges <br>
+      
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <input type="submit" id="submit" value="Submit">
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

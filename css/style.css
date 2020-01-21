@@ -1,32 +1,41 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: 'Poppins';
+}
+
+body{
+    background-image: url('https://definicao.net/wp-content/uploads/2018/10/significado-de-background-e1539208176266.jpeg');
 }
 
 #title, #description{
     text-align: center;
+    color: white;
+
+}
+
+#description{
+    font-size: 20px;
+    padding: 10px;
 }
 
 .container{
     margin-right: 25%;
     margin-left: 25%;
     width: 50%;
+    background-color: hsla(272, 67%, 15%, 0.8);
+    padding: 20px;
 }
 input{
-    height: 25px;
+    /*height: 25px;*/
     outline: none;
-}
-.inputs{
-    display: block;
-    width: 90%;
-}
-.inputs{
-    width: 90%;
 }
 
 label{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 textarea{
     width: 90%;
@@ -34,4 +43,20 @@ textarea{
 .field{
     display: block;
     width: 90%;
+    height: 25px;
+}
+
+select, option {
+    color: black;
+}
+
+#submit {
+    background-color: green;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.content {
+    margin-left: 5%;
+    margin-right: 5%;
 }

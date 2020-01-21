@@ -7,19 +7,23 @@
   </head>
 
   <body>
+    
     <h1 id="title">
       Microverse survey form
     </h1>
     <p id="description">
       This is a survey form for microverse bootcamp
     </p>
+    <div class="container">
     <form id="survey-form">
+      <div class="inputs">
       <label for="name" id="name-label">Name</label>
       <input type="text" id="name" placeholder="Enter your name" required>
       <label for="email" id="email-label">Email</label>
       <input type="email" id="email" placeholder="enter your email" required>
       <label for="number" id="number-label">Age</label>
       <input type="number" id="number" max="100" min="7" placeholder="Enter your age"> 
+    </div>
       <select name="role" id="dropdown" placeholder="Select current role">
         <option value="student">Student</option>
         <option value="fulltimejob">Full time job</option>
@@ -40,6 +44,7 @@
 
       <input type="submit" id="submit" value="Submit">
     </form>
+  </div>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="js/index.js"></script>
